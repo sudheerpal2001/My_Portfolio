@@ -5,6 +5,20 @@
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
+
+/* What's app Logo */
+.whatsapp-logo{
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 999;
+    font-size: 1px;
+    
+}
+.whatsapp-logo img{
+    height: 60px;
+    width: 60px;
+}
 .container{
     width: 100%;
     background-color: #010202;
