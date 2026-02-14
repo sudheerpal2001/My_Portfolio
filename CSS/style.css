@@ -21,7 +21,7 @@
 }
 .container{
     width: 100%;
-    background-color: #010202;
+    background-color: #362f72;
 }
 nav{
     display: flex;
@@ -89,7 +89,7 @@ nav ul li a:hover::after{
     overflow: hidden;
     border-right: 3px solid red;
     width: 0;
-    animation: typing 8s steps(30) infinite;
+    animation: typing 8s steps(28) infinite;
 }
 .typing span::before{
     color: tomato;
@@ -147,36 +147,36 @@ nav ul li a:hover::after{
 
 .left-box{
     opacity: 0;
-    transform: translateX(-150px);
-    animation: slideleft 1.5s ease-out forwards;
-    animation-delay: 1s;
+    transform: translateY(-150px);
+    animation: slideleft 1s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .right-box{
     opacity: 0;
-    transform: translateX(150px);
-    animation: slideright 1.5s ease-out forwards;
-    animation-delay: 1s;
+    transform: translateY(150px);
+    animation: slideright 1s ease-out forwards;
+    animation-delay: 0.1s;
 }
 /* Animation for Profile */
 
 @keyframes slideleft {
     from{
         opacity: 0;
-        transform: translateX(-150px);
+        transform: translateY(-150px);
     }
     to{
         opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
     }
 }
 @keyframes slideright {
     from{
         opacity: 0;
-        transform: translateX(150px);
+        transform: translateY(150px);
     }
     to{
         opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
     }
 }
 .outer-text{
@@ -446,7 +446,7 @@ nav ul li a:hover::after{
 }
 
 .services-container:hover{
-    background: linear-gradient(to top,rgb(231, 86, 86),rgb(83, 83, 193),rgb(228, 228, 100));
+        background: linear-gradient(45deg, rgb(39, 88, 224) 50%, rgba(1, 108, 179, 0.85) 20%, rgba(42, 175, 252, 0.85)) 40%;
     transform: translateY(-10px);
 }
 
@@ -455,7 +455,7 @@ nav ul li a:hover::after{
     color: white;
 }
 .services-container h2{
-    color: orangered;
+    color: blue;
 }
 .services-container p{
     color: white;
