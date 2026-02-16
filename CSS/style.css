@@ -620,9 +620,6 @@ nav ul li a:hover::after{
     font-size: 15px;
     gap: 10px;
   }
-  .icons{
-    width: 70%;
-  }
   /* Hero  */
   .hero-outer{
     flex-direction: column;
@@ -632,7 +629,8 @@ nav ul li a:hover::after{
   }
   .outer-profile{
     width: 350px;
-    height: 400px;
+    height: 300px;
+    margin-bottom: 60px;
   }
   .outer-text{
     width: 80%;
@@ -667,6 +665,7 @@ nav ul li a:hover::after{
 
   /* contact */
   .contact-outer{
+    width: 100%;
     flex-direction: column;
   }
   .contact-left{
@@ -692,10 +691,10 @@ nav ul li a:hover::after{
 
 @media (max-width:480px){
     .icons{
-        width: 60%;
+        width: 50%;
         gap: 10px;
         font-size: 20px;
-        justify-content: space-between;
+        justify-content: center;
     }
     /* hero */
     .outer-text h1{
