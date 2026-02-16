@@ -635,7 +635,7 @@ nav ul li a:hover::after{
     height: 400px;
   }
   .outer-text{
-    width: 100%;
+    width: 90%;
     justify-content: start;
   }
   /* about */
