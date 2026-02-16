@@ -626,6 +626,7 @@ nav ul li a:hover::after{
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
   }
   .outer-profile{
     width: 350px;
