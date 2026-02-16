@@ -655,14 +655,14 @@ nav ul li a:hover::after{
     flex-direction: column;
   }
   .services-container{
-    width: 80%;
+    width: 90%;
   }
 
   .projects-outer{
     flex-direction: column;
   }
   .projects-container{
-    width: 80%;
+    width: 90%;
   }
 
   /* contact */
@@ -692,14 +692,14 @@ nav ul li a:hover::after{
 
 @media (max-width:480px){
     .icons{
-        width: 70%;
+        width: 60%;
         gap: 10px;
         font-size: 20px;
         justify-content: space-between;
     }
     /* hero */
     .outer-text h1{
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px;
         top: 10px;
     }
@@ -715,7 +715,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(1, 1fr);
   }
   .services-container{
-    width: 80%;
+    width: 90%;
     font-size: 13px;
   }
 
@@ -723,7 +723,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(1, 1fr);
   }
   .projects-container{
-    width: 80%;
+    width: 90%;
   }
 
   .allwrite-reserved{
