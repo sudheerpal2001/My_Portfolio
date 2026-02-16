@@ -699,10 +699,12 @@ nav ul li a:hover::after{
     }
     /* hero */
     .outer-text h1{
-        width: 80%;
         font-size: 20px;
         padding: 10px;
         top: 10px;
+    }
+    .typing{
+        font-size: 19px;
     }
 
     #about h1{
