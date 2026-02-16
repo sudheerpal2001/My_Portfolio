@@ -90,7 +90,7 @@ nav ul li a:hover::after{
     overflow: hidden;
     border-right: 3px solid red;
     width: 0;
-    animation: typing 8s steps(28) infinite;
+    animation: typing 8s steps(20) infinite;
 }
 .typing span::before{
     color: tomato;
@@ -699,6 +699,7 @@ nav ul li a:hover::after{
     }
     /* hero */
     .outer-text h1{
+        width: 80%;
         font-size: 20px;
         padding: 10px;
         top: 10px;
