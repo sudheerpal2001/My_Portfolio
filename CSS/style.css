@@ -635,7 +635,7 @@ nav ul li a:hover::after{
     height: 400px;
   }
   .outer-text{
-    width: 80%;
+    width: 100%;
     justify-content: start;
   }
   /* about */
@@ -655,14 +655,14 @@ nav ul li a:hover::after{
     flex-direction: column;
   }
   .services-container{
-    width: 90%;
+    width: 100%;
   }
 
   .projects-outer{
     flex-direction: column;
   }
   .projects-container{
-    width: 90%;
+    width: 100%;
   }
 
   /* contact */
@@ -670,17 +670,17 @@ nav ul li a:hover::after{
     flex-direction: column;
   }
   .contact-left{
-    width: 90%;
+    width: 100%;
   }
   .contact-form{
-    width: 90%;
+    width: 100%;
   }
   .contact-info input{
-    width: 90%;
+    width: 100%;
      
 }
 .contact-info textarea{
-    width: 90%;
+    width: 100%;
 }
 
 .footer-outer{
@@ -715,7 +715,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(1, 1fr);
   }
   .services-container{
-    width: 90%;
+    width: 100%;
     font-size: 13px;
   }
 
@@ -723,7 +723,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(1, 1fr);
   }
   .projects-container{
-    width: 90%;
+    width: 100%;
   }
 
   .allwrite-reserved{
