@@ -669,7 +669,7 @@ nav ul li a:hover::after{
   .contact-outer{
     flex-direction: column;
   }
-  .contact-left p{
+  .contact-left{
     width: 100%;
   }
   .contact-form{
