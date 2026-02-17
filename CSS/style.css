@@ -31,7 +31,7 @@ nav{
 }
 nav img{
     height: 70px;
-    width: 17%;
+    width: 12%;
     border-radius: 50%;
 }
 #logo{
@@ -203,7 +203,7 @@ nav ul li a:hover::after{
 /* About */
 
 #about h1{
-    color: rgb(2, 169, 174);
+    color: tomato;
     text-align: center;
 }
 #about hr{
@@ -373,7 +373,7 @@ nav ul li a:hover::after{
 .myskill-outer{
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -382,21 +382,27 @@ nav ul li a:hover::after{
 }
 
 .myskill-container{
-    height: 200px;
+    height: 180px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    /* background: linear-gradient(rgb(241, 124, 124),rgb(119, 119, 244),rgb(250, 250, 127)); */
     
+}
+.myskill-container h3{
+    color: white;
 }
 
 .myskill-container img:hover{
     transform: translateY(-10px);
+    transform: rotate(10deg);
 }
 
 .myskill-container img{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     border-radius: 10px;
     transition: 0.5s ease-in-out ;
 }
@@ -421,7 +427,8 @@ nav ul li a:hover::after{
 
 .services-outer{
     width: 80%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -432,7 +439,7 @@ nav ul li a:hover::after{
 
 .services-container{
     height: 200px;
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -607,6 +614,7 @@ nav ul li a:hover::after{
 @media (max-width: 768px) {
     nav img{
         margin-left: -30px;
+        width: 17%;
     }
 
   nav ul {
@@ -648,13 +656,17 @@ nav ul li a:hover::after{
 
   /* Skills */
   .myskill-outer{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
   }
   .services-outer{
     flex-direction: column;
   }
   .services-container{
     width: 100%;
+    font-size: 18px;
+  }
+  .services-outer{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .projects-outer{
@@ -715,11 +727,14 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(2,1fr);
   }
   .myskill-outer{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .services-container{
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .services-outer{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .projects-outer{
